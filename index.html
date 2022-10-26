@@ -9,59 +9,89 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
+    <div class="container">
+        <header class="header">
+            <div class="logo-position">
+                <span></span>
+                <img class="Logo" src="img/icon/icon.png" alt="logo">
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#">How it works</a></li>
+                    <li class="nav-item"><a href="#">Who we are</a></li>
+                    <li class="nav-item"><a href="#">What we do</a></li>
+                    <li class="nav-item"><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+            <button>Sign in</button>
+        </header>
 
-    <header>
-        <div>
-            <span></span>
-            <img src="" alt="logo">
-        </div>
-        <ul>
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Who we are</a></li>
-            <li><a href="#">What we do</a></li>
-            <li><a href="#">Contact us</a></li>
-        </ul>
-        <button>Sign in</button>
-    </header>
+        <main>
 
-    <main>
-
-        <section>
-            <h1 class="main-title">Combine <span  class="main-title-fine">fine</span> images</h1>
-            <p class="section-description">To represent a product</p>
-            <article class="left-article"> <!-- Левая статья -->
-                <p>
-                    Use mixed grid with imagery, replace with your own photos and descriptions
-                </p>
-                <a href="#">
-                    <div>
-                        <p>
-                            <span class="left-column-title">We aimed to deliver HQ templates for Figma </span>
-                            Used by 123 people
-                        </p>
-                        <!-- разноцветный блок -->
-                    </div>
-                </a>
-                <button class="left-article-button">Learn more</button>
-            </article>
-            <div>
-
-
-                <article class="main-article"><!-- Статьи по середине -->
+            <section>
+                <h1 class="main-title">Combine <span  class="main-title-fine">fine</span> images</h1>
+                <p class="section-description">To represent a product</p>
+                <article class="left-article"> <!-- Левая статья -->
+                    <p>
+                        Use mixed grid with imagery, replace with your own photos and descriptions
+                    </p>
                     <a href="#">
                         <div>
-                            <h2 class="article-main-title">Image Title</h2>
+                            <p>
+                                <span class="left-column-title">We aimed to deliver HQ templates for Figma </span>
+                                Used by 123 people
+                            </p>
                             <!-- разноцветный блок -->
                         </div>
                     </a>
+                    <button class="left-article-button">Learn more</button>
                 </article>
                 <div>
-                    <p>This is multipurpose grid, it fits for portfolio, services or agency web site</p>
+
+
+                    <article class="main-article"><!-- Статьи по середине -->
+                        <a href="#">
+                            <div>
+                                <h2 class="article-main-title">Image Title</h2>
+                                <!-- разноцветный блок -->
+                            </div>
+                        </a>
+                    </article>
+                    <div>
+                        <p>This is multipurpose grid, it fits for portfolio, services or agency web site</p>
+                        <article>
+                            <a href="#">
+                                <div>
+                                    <!-- разноцветный блок -->
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="#">
+                                <div>
+                                    <!-- разноцветный блок -->
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+
+
+                <div> <!-- Нижние статьи -->
                     <article>
                         <a href="#">
                             <div>
+                                <!-- разноцветный блок -->
+                            </div>
+                        </a>
+                    </article>
+                    <article class="artical-caption">
+                        <a href="#">
+                            <div>
+                                <h3 class="article-buttom-caption">Caption</h3>
                                 <!-- разноцветный блок -->
                             </div>
                         </a>
@@ -74,244 +104,218 @@
                         </a>
                     </article>
                 </div>
-            </div>
+            </section>
 
 
-            <div> <!-- Нижние статьи -->
-                <article>
-                    <a href="#">
-                        <div>
-                            <!-- разноцветный блок -->
-                        </div>
-                    </a>
-                </article>
-                <article class="artical-caption">
-                    <a href="#">
-                        <div>
-                            <h3 class="article-buttom-caption">Caption</h3>
-                            <!-- разноцветный блок -->
-                        </div>
-                    </a>
-                </article>
-                <article>
-                    <a href="#">
-                        <div>
-                            <!-- разноцветный блок -->
-                        </div>
-                    </a>
-                </article>
-            </div>
-        </section>
+            <section>
+                <h2 class="section-description">
+                    Affordable pricing
+                </h2>
+                <p>
+                    Bill me
+                </p>
+                <ul>
+                    <li>monthly</li>
+                    <li>yearly</li>
+                </ul>
 
 
-        <section>
-            <h2 class="section-description">
-                Affordable pricing
-            </h2>
-            <p>
-                Bill me
-            </p>
-            <ul>
-                <li>monthly</li>
-                <li>yearly</li>
-            </ul>
+                <div class="tariff-plan">
+                    <h3 class="tariff-plan-title">Like a pussy</h3>
+                    <p><span class="price">FREE</span> <span class="price-time">/forever</span></p>
+                    <ul>
+                        <li><span></span>Components-driven system</li>
+                        <li><span></span>Sales-boosting landing pages</li>
+                        <li><span></span>Awesome Feather icons pack</li>
+                        <a href="#">
+                            Try for free
+                        </a>
+                    </ul>
+                </div>
 
 
-            <div class="tariff-plan">
-                 <h3 class="tariff-plan-title">Like a pussy</h3>
-                 <p><span>FREE</span>/forever</p>
-                 <ul>
+                <div class="tariff-plan">
+                    <div class="avatar">
+                        <span></span>
+                        <h3 class="tariff-plan-title">Individual</h3>
+                        <span>best!</span>
+                    </div>
+                    <p><span class="price" >$24</span><span class="price-time">/month</span></p>
+                    <ul>
                     <li><span></span>Components-driven system</li>
                     <li><span></span>Sales-boosting landing pages</li>
                     <li><span></span>Awesome Feather icons pack</li>
+                    <li>
+                        Themed into 3 different styles
+                    </li>
+                    <li>
+                        Will help to learn Figma
+                    </li>
                     <a href="#">
-                        Try for free
+                            Regular license
                     </a>
-                 </ul>
+                    </ul>
             </div>
 
 
             <div class="tariff-plan">
-                <div class="avatar">
+                <div class="corporate">
                     <span></span>
-                    <h3 class="tariff-plan-title">Individual</h3>
-                    <span>best!</span>
+                    <h3 class="tariff-plan-title">Corporate</h3>
                 </div>
-                <p><span>$24</span>/month</p>
+                <p><span class="price">$12</span> <span class="price-time">/editor</span></p>
                 <ul>
-                   <li><span></span>Components-driven system</li>
-                   <li><span></span>Sales-boosting landing pages</li>
-                   <li><span></span>Awesome Feather icons pack</li>
-                   <li>
+                <li><span></span>Components-driven system</li>
+                <li><span></span>Sales-boosting landing pages</li>
+                <li><span></span>Awesome Feather icons pack</li>
+                <li>
                     Themed into 3 different styles
-                   </li>
-                   <li>
-                    Will help to learn Figma
-                   </li>
-                   <a href="#">
-                        Regular license
-                   </a>
+                </li>
+
+                <a href="#">
+                        Extended license
+                </a>
                 </ul>
-           </div>
+        </div>
+            </section>
 
+            <section>
+                <div>
+                    <h2>
+                        Delivering good designs since 1954
+                    </h2>
+                    <span></span>
+                    <span></span>
+                </div>
+                <p>
+                    We’re the first multi-purpose design kit solutions for businesses. We help you bridge
+                    gaps between your layouts, templates and developers to empower all involved.
+                </p>
+                <ul>
+                    <li>
+                        <span></span>
+                        <h3>Support</h3>
+                        <p>
+                            Delivering faster and more personalized support with shared screens and cool design systems for Figma
+                        </p>
+                        <button>
+                            Learn more
+                        </button>
+                    </li>
 
-           <div class="tariff-plan">
-            <div class="corporate">
-                <span></span>
-                <h3 class="tariff-plan-title">Corporate</h3>
-            </div>
-            <p><span>$12</span>/editor</p>
-            <ul>
-               <li><span></span>Components-driven system</li>
-               <li><span></span>Sales-boosting landing pages</li>
-               <li><span></span>Awesome Feather icons pack</li>
-               <li>
-                Themed into 3 different styles
-               </li>
+                    <li>
+                        <span></span>
+                        <h3>Sales growth</h3>
+                        <p>
+                            Identify qualified customers with easy-to-use live chat messaging and AI-based Sales Bot
+                        </p>
+                        <button>
+                            Learn more
+                        </button>
+                    </li>
 
-               <a href="#">
-                    Extended license
-               </a>
-            </ul>
-       </div>
-        </section>
+                    <li>
+                        <span></span>
+                        <h3>Coponents-driven</h3>
+                        <p>
+                            Delivering faster and more personalized support with shared screens and cool design systems for Figma
+                        </p>
+                        <button>
+                            Learn more
+                        </button>
+                    </li>
 
-        <section>
+                    <li>
+                        <span></span>
+                        <h3>Swap the icon</h3>
+                        <p>
+                            You can toggle to any icon within Instances and customize outlined stroke to more bolder or lighter
+                        </p>
+                        <button>
+                            Learn more
+                        </button>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
             <div>
-                <h2>
-                    Delivering good designs since 1954
-                </h2>
-                <span></span>
-                <span></span>
+                <h3>Follow us</h3>
+                <ul>
+                    <li><a href="#"><span></span></a></li>
+                    <li><a href="#"><span></span></a></li>
+                    <li><a href="#"><span></span></a></li>
+                    <li><a href="#"><span></span></a></li>
+                </ul>
+                <div>
+                    <h3>Information</h3>
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="#">About Fapster app</a>
+                            </li> 
+                            <li>
+                                <a href="#">Get in Touch</a>
+                            </li>
+                            <li>
+                            <a href="#">Things We Like</a> 
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="#">Onhovered / Active</a>
+                            </li> 
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li>
+                            <a href="#">Terms of Service</a> 
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="#">We are hiring!</a>
+                            </li> 
+                            <li>
+                                <a href="#">Resources</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <p>
-                We’re the first multi-purpose design kit solutions for businesses. We help you bridge
-                gaps between your layouts, templates and developers to empower all involved.
-            </p>
-            <ul>
-                <li>
-                    <span></span>
-                    <h3>Support</h3>
-                    <p>
-                        Delivering faster and more personalized support with shared screens and cool design systems for Figma
-                    </p>
-                    <button>
-                        Learn more
-                    </button>
-                </li>
 
-                <li>
-                    <span></span>
-                    <h3>Sales growth</h3>
-                    <p>
-                        Identify qualified customers with easy-to-use live chat messaging and AI-based Sales Bot
-                    </p>
-                    <button>
-                        Learn more
-                    </button>
-                </li>
-
-                <li>
-                    <span></span>
-                    <h3>Coponents-driven</h3>
-                    <p>
-                        Delivering faster and more personalized support with shared screens and cool design systems for Figma
-                    </p>
-                    <button>
-                        Learn more
-                    </button>
-                </li>
-
-                <li>
-                    <span></span>
-                    <h3>Swap the icon</h3>
-                    <p>
-                        You can toggle to any icon within Instances and customize outlined stroke to more bolder or lighter
-                    </p>
-                    <button>
-                        Learn more
-                    </button>
-                </li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        <div>
-            <h3>Follow us</h3>
-            <ul>
-                <li><a href="#"><span></span></a></li>
-                <li><a href="#"><span></span></a></li>
-                <li><a href="#"><span></span></a></li>
-                <li><a href="#"><span></span></a></li>
-            </ul>
             <div>
-                <h3>Information</h3>
-                <div>
-                    <ul>
-                        <li>
-                            <a href="#">About Fapster app</a>
-                        </li> 
-                        <li>
-                            <a href="#">Get in Touch</a>
-                        </li>
-                        <li>
-                           <a href="#">Things We Like</a> 
-                        </li>
-                    </ul>
-                </div>
-
-                <div>
-                    <ul>
-                        <li>
-                            <a href="#">Onhovered / Active</a>
-                        </li> 
-                        <li>
-                            <a href="#">Privacy Policy</a>
-                        </li>
-                        <li>
-                           <a href="#">Terms of Service</a> 
-                        </li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <ul>
-                        <li>
-                            <a href="#">We are hiring!</a>
-                        </li> 
-                        <li>
-                            <a href="#">Resources</a>
-                        </li>
-                    </ul>
-                </div>
+                <h3>follow us</h3>
+                <a href="mailto:hello@fapsterapp.com">hello@fapsterapp.com</a>
             </div>
-        </div>
 
-        <div>
-            <h3>follow us</h3>
-            <a href="mailto:hello@fapsterapp.com">hello@fapsterapp.com</a>
-        </div>
-
-        <div>
-            <h3>keep in touch</h3>
-            <form action="#">
-                <div>
-                    <p>
-                        <label for="name"></label>
-                        <input placeholder="Your name" id="name" type="text">
-                    </p>
-                    <p>
-                        <label for="email"></label>
-                        <input placeholder="E-mail" type="email" id="email" type="text">
-                    </p>
-                    <p>
-                    <span></span>
-                    <textarea name="message">Leave your message</textarea>
-                    </p>
-                </div>
-            </form>
-        </div>
-    </footer>
+            <div>
+                <h3>keep in touch</h3>
+                <form action="#">
+                    <div>
+                        <p>
+                            <label for="name"></label>
+                            <input placeholder="Your name" id="name" type="text">
+                        </p>
+                        <p>
+                            <label for="email"></label>
+                            <input placeholder="E-mail" type="email" id="email" type="text">
+                        </p>
+                        <p>
+                        <span></span>
+                        <textarea name="message">Leave your message</textarea>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

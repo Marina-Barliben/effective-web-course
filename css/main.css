@@ -1,8 +1,37 @@
+
+*::before,*::after{
+    box-sizing: border-box;
+}
+html{
+    box-sizing: border-box;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.nav-list{
+    list-style: none;;
+}
+.nav-item{
+    height: 64px;
+    width: 160px;
+}
+.logo-position{
+    display: inline-flex;
+}
+.logo{
+    display: inline-block;
+}
+.nav-list{
+    display: flex;
+    margin: 0px;
+}
 body{
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     line-height: 32px;
     color: #2D3436;
+    box-sizing: border-box;
 
 }
 * a{
@@ -55,8 +84,21 @@ body{
     color: #6C5CE7;
 
 }
-.price-title{
+.tariff-plan-title{
     font-weight: 700;
     letter-spacing: 0.2px;
     color: #6C5CE7;
 }
+.price{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1px;
+}
+.price-time{
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.5px;
+}
+
