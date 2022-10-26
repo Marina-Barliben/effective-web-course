@@ -1,0 +1,62 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2D3436;
+
+}
+* a{
+    text-decoration: none;
+}
+.main-title{
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 104px;
+    letter-spacing: -3px;
+
+    text-shadow: 0px 4px 0px #FFFFFF;
+}
+.main-title-fine{
+    color: #E84393;
+}
+.section-description{
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -1px;
+}
+.left-column-title{
+    font-weight: 700;
+}
+.article-main-title{
+
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: white;
+}
+.main-article{
+    background-color:#00B894;
+}
+.artical-caption{
+    background-color:#6C5CE7;
+}
+.article-buttom-caption{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: white;
+}
+.left-article-button{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: #6C5CE7;
+
+}
+.price-title{
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: #6C5CE7;
+}
