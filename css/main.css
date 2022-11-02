@@ -9,35 +9,82 @@ html{
     width: 1440px;
     margin: 0 auto;
 }
-.nav-list{
-    list-style: none;;
-}
-.nav-item{
-    height: 64px;
-    width: 160px;
-}
-.logo-position{
-    display: inline-flex;
-}
-.logo{
-    display: inline-block;
+.main-header .container{
+    display: flex;
+
+    margin-top: 16px;
+    
 }
 .nav-list{
     display: flex;
-    margin: 0px;
+
+    padding-left: 0px;
+    margin-left: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style: none;
 }
+.nav-item{
+    width: 160px;
+    height: 64px;
+
+    padding-top: 20px;
+    text-align: center;
+}
+.nav-item a:hover{
+    color: black;
+}
+.circle{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+
+    margin-left: 16px;
+    border-radius: 50%;
+    background-color: #FDCB6E;
+}
+.hr-line{
+    height: 1px;
+    filter: drop-shadow(0px 2px 4px rgba(38, 50, 56, 0.16)) drop-shadow(0px 4px 8px rgba(38, 50, 56, 0.08));
+}
+    
+.decor-rectangle{
+    position: relative;
+    width: 1376.03px;
+    height: 767.91px;
+    left: 670px;
+    bottom: -262.91px;
+    z-index: -1;
+
+    background-color: #FFEAA7;
+    border-radius: 99px;
+    transform: rotate(-45deg);
+}
+
 body{
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     line-height: 32px;
     color: #2D3436;
     box-sizing: border-box;
+    background-color: white;
 
+}
+.tittle-ps{
+    text-align: center;
 }
 * a{
     text-decoration: none;
 }
+.main{
+    padding-top: 80px;
+}
 .main-title{
+
+    margin-top: 0;
+    margin-bottom: 0;
+    bottom: 16px;
+
     font-weight: 800;
     font-size: 96px;
     line-height: 104px;
@@ -49,23 +96,44 @@ body{
     color: #E84393;
 }
 .section-description{
+    margin: 0;
+    margin-bottom: 64px;
+
     font-weight: 900;
     font-size: 64px;
     line-height: 77px;
     letter-spacing: -1px;
 }
+.flex-column{
+    display:flex;
+}
+.left-article-description{
+    width: 270px;
+    height: 102px;
+}
+.left-block{
+    width: 270px;
+    height: 464px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+    padding: 16px;
+    text-align: center;
+    background-color: #FDCB6E;
+    color: black;
+    border-radius: 20px;
+}
 .left-column-title{
     font-weight: 700;
 }
 .article-main-title{
+    padding-top: 150px;
+    margin: 0;
 
     font-weight: 700;
     font-size: 48px;
     line-height: 56px;
     color: white;
-}
-.main-article{
-    background-color:#00B894;
 }
 .artical-caption{
     background-color:#6C5CE7;
@@ -77,12 +145,31 @@ body{
     color: white;
 }
 .left-article-button{
+    display: inline-block;
+    width: 310px;
+    height: 82px;
+
+    padding: 16px 8px 16px 8px;
+
+    border: 0px;
+    border-radius: 999px;
     font-weight: 700;
     font-size: 32px;
     line-height: 48px;
     letter-spacing: -0.5px;
     color: #6C5CE7;
+    box-shadow: 0px 8px 24px rgba(38, 50, 56, 0.1), 0px 16px 32px rgba(38, 50, 56, 0.08);
 
+}
+.main-block{
+    width: 470px;
+    height: 380px;
+    margin-right: 30px;
+
+    text-align: center;
+    background-color:#00B894;
+    border-radius: 20px;
+    vertical-align: middle;
 }
 .tariff-plan-title{
     font-weight: 700;
@@ -101,4 +188,15 @@ body{
     line-height: 15px;
     letter-spacing: 2.5px;
 }
+.right-disc{
+    width: 370px;
+    height: 78px;
 
+}
+.right-block{
+    width: 170px;
+    height: 222px;
+
+    background: #A29BFE;
+    border-radius: 20px;
+}
