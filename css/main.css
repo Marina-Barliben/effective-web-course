@@ -50,11 +50,11 @@ html{
 }
     
 .decor-rectangle{
-    position: relative;
+    position: absolute;
     width: 1376.03px;
     height: 767.91px;
-    left: 670px;
-    bottom: -262.91px;
+    left: 300px;
+    top: 0.91px;
     z-index: -1;
 
     background-color: #FFEAA7;
@@ -80,6 +80,7 @@ body{
 .main{
     padding-top: 80px;
     overflow: hidden;
+    position: relative;
 }
 .main-title{
 
@@ -109,10 +110,17 @@ body{
 .flex-column{
     display:flex;
 }
+.main-two-col{
+    display: flex;
+}
 .left-article-description{
     width: 270px;
     height: 102px;
 }
+.left-article{
+    display: inline-block;
+}
+
 .left-block{
     width: 270px;
     height: 464px;
@@ -138,9 +146,22 @@ body{
     color: white;
 }
 .artical-caption{
+    width: 370px;
+    height: 356px;
+
+    margin: 30px;
+    margin-left: 0px;
+    margin-bottom: 80px;
+
     background-color:#6C5CE7;
+    border-radius: 20px;
+    text-align: center;
+ 
+
 }
 .article-buttom-caption{
+    margin: 0px;
+    padding-top:150px; ;
     font-weight: 700;
     font-size: 48px;
     line-height: 56px;
@@ -162,6 +183,16 @@ body{
     color: #6C5CE7;
     box-shadow: 0px 8px 24px rgba(38, 50, 56, 0.1), 0px 16px 32px rgba(38, 50, 56, 0.08);
 
+}
+.last-block{
+    width: 170px;
+    height: 222px;
+
+    margin-top: 30px;
+    margin-left: 0px;
+
+    background-color: #FF7675;
+    border-radius: 20px;
 }
 .main-block{
     width: 470px;
@@ -191,16 +222,50 @@ body{
     letter-spacing: 2.5px;
 }
 .right-disc{
+    padding-top: 59px;
     width: 370px;
     height: 78px;
 
 }
-.right-block{
+.right-block,.right-block-img{
     width: 170px;
     height: 222px;
 
+    margin-right: 30px;
+
     background: #A29BFE;
     border-radius: 20px;
+}
+.right-block-img{
+    margin-right: 0px;
+    background: #2318bb;
+    background-image: url(img\decor\Image.png);
+}
+.right-column{
+    display: flex;
+}
+.first-buttom-block{
+    width: 270px;
+    height: 284px;
+
+    margin: 30px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+
+    border-radius: 20px;
+    background-color:#E84393;
+}
+.buttom-article{
+    display: inline-flex;
+}
+.three-col{
+    display: flex;
+}
+.tariff-time{
+    display: flex;
+}
+.time-list li{
+    display: inline-block;
 }
 /* .button-main-header{
     width: 138px;
