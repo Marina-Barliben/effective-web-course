@@ -301,7 +301,8 @@ body{
 }
 .active-item:hover{
     color: #6C5CE7;
-    text-decoration:underline;
+    text-decoration:none;
+    border-bottom: solid 10px #FDCB6E;
 }
 .time-list{
     display: flex;
@@ -512,10 +513,74 @@ body{
     background-color: #00B894;
 }   
 .support-button{
+   
     width: 146px;
     height: 48;
 
+    font-weight: 700;
     padding: 8px 16px 8px 16px;
-    border: 1px solid #ADADAD;
-    border-radius: 16px;
+    color: #6C5CE7;
+    background: rgb(255, 255, 255);
+    border: 1px solid  #c2c1c4;
+    border-radius: 15px;
+}
+.follow-us{
+    display: flex;
+    align-items: center;
+    width: 570px;
+    height: 24px ;
+
+    margin-top: 80px;
+    font-weight: 1000px;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.5px;
+    color: #ADADAD;
+    text-transform: uppercase;
+}
+.bottom-information{
+    display: flex;
+    align-items: center;
+    width: 570px;
+    height: 24px ;
+    
+    margin-top: 80px;
+    font-weight: 1000px;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.5px;
+    color: #ADADAD;
+    text-transform: uppercase;
+
+}
+.mail-contact{
+    display: flex;
+    align-items: flex-end;;
+   
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #6C5CE7;
+}
+.leave-message{
+    color: #6C5CE7;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+}
+.button-send-end{
+    width: 170px;
+    height: 80px;
+
+    padding: 8px 16px 8px 16px;
+    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    letter-spacing: 0.25px;
+    background: #6C5CE7;
+    border: 1px solid  #6C5CE7;
+    border-radius: 15px;
 }
