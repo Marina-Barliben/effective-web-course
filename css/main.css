@@ -6,7 +6,7 @@ html{
     box-sizing: border-box;
 }
 .container{
-    width: 1440px;
+    width: 1250px;
     margin: 0 auto;
     
 }
@@ -24,6 +24,7 @@ html{
     margin-top: 0px;
     margin-bottom: 0px;
     list-style: none;
+    
 }
 .nav-item{
     width: 160px;
@@ -34,6 +35,19 @@ html{
 }
 .nav-item a:hover{
     color: black;
+}
+.button-main-header{
+    
+}
+.main-button{
+    height: 64px;
+    width: 170px;
+
+    margin-left: 100px;
+
+    background: #2D3436;
+    color: white;
+    border-radius: 999px;
 }
 .circle{
     display: inline-block;
@@ -82,6 +96,9 @@ body{
     overflow: hidden;
     position: relative;
 }
+.main-section{
+    padding-bottom: 80px;
+}
 .main-title{
 
     margin-top: 0;
@@ -102,10 +119,16 @@ body{
     margin: 0;
     margin-bottom: 64px;
 
+    text-align: center;
+
     font-weight: 900;
     font-size: 64px;
     line-height: 77px;
     letter-spacing: -1px;
+}
+.pricing-description{
+    margin-top: 29px;
+    margin-bottom: 34px;
 }
 .flex-column{
     display:flex;
@@ -151,7 +174,6 @@ body{
 
     margin: 30px;
     margin-left: 0px;
-    margin-bottom: 80px;
 
     background-color:#6C5CE7;
     border-radius: 20px;
@@ -205,6 +227,10 @@ body{
     vertical-align: middle;
 }
 .tariff-plan-title{
+    width: 216px;
+
+    margin-bottom: 0px;
+
     font-weight: 700;
     letter-spacing: 0.2px;
     color: #6C5CE7;
@@ -260,12 +286,107 @@ body{
 }
 .three-col{
     display: flex;
+    justify-content: center;
 }
 .tariff-time{
     display: flex;
+    justify-content: center;
+    
+
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 10px;
+    color: #ADADAD;
+    margin-bottom: 40px;
+
+    width: 570px;
+    margin: 0 auto;
+}
+.active-item:hover{
+    color: #6C5CE7;
+    text-decoration:underline;
+}
+.time-list{
+    display: flex;
+
+    list-style: none;
+    margin-left: 5px;
+    padding: 0;
 }
 .time-list li{
+    margin-right: 5px;
+    
+}
+.grey-circle{
     display: inline-block;
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 50%;
+    text-align: center;
+    background-color: #ADADAD;
+}
+.tariff-plan{
+    width: 370px;
+    height: 536px;
+
+    
+
+    padding: 32px;
+    margin-right: 30px;
+    box-sizing: border-box;
+}
+.tariff-plan ul{
+    list-style: none;
+
+    padding: 0px;
+}
+.tariff-plan ul li{
+    margin-bottom: 16px;
+}
+.tariff-icon{
+    display: inline-block;
+
+    width: 32px;
+    height: 32px;
+
+    font-size: 0px;
+
+    margin-right: 10px;
+
+    background-image: url(img\icon\Icon-Acrylic.svg);
+    background-color: #C2C2C2;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.yellow-icon{
+    background-color: #FDCB6E;
+}
+.blue-icon{
+    background-color: #55EFC4;
+}
+.tittle-wrapper{
+    display: flex;
+    align-items: center;
+}
+.decor-btn-tarrif{
+    height: 16px;
+    width: 74px;
+    padding: 8px;
+    
+    margin-top: 20px;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    border: 1px solid #6C5CE7;
+    border-radius: 20px;
+}
+.active-tarriff:hover{
+    filter: drop-shadow(0px 8px 8px rgba(38, 50, 56, 0.12)) drop-shadow(0px 16px 24px rgba(38, 50, 56, 0.08));
 }
 /* .button-main-header{
     width: 138px;
